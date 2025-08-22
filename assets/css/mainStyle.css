@@ -1,0 +1,115 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mozilla+Headline:wght@200..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Mozilla Headline", sans-serif; */
+/* font-family: "Archivo Black", sans-serif; */
+/* font-family: "Oswald", sans-serif; */
+/* font-family: "Playfair Display", serif; */
+
+* {
+    scrollbar-width: thin;
+    scroll-color: white black;
+}
+
+.appinqode {
+    -ms-overflow-style: none;
+}
+
+.appinqode::-webkit-scrollbar-track {
+    background-color: transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    display: inherit;
+}
+
+.appinqode::-webkit-scrollbar-track-piece {
+    width: 1px;
+    display: inherit;
+}
+
+.appinqode::-webkit-scrollbar {
+    width: 8px;
+    height: auto;
+    display: inherit;
+}
+
+.appinqode::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    background: -webkit-linear-gradient(to bottom, #ffffff, #474747);
+    background: linear-gradient(to bottom, #ffffff, #474747);
+    border: 2px solid #474747;
+    display: inherit;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+::selection {
+    background-color: #bfd3dd;
+}
+
+a {
+    color: #747474;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+    pointer-events: pointer;
+}
+
+a:hover {
+    color: #a0a0a0;
+    cursor: pointer;
+    pointer-events: pointer;
+}
+
+body {
+    font-family: 'Playfair Display', Helvetica, Arial, serif, sans-serif, serif;
+    color: #1C1C1E;
+    overflow-x: hidden;
+}
+
+html {
+    color: #1C1C1E;
+    overflow-x: hidden;
+}
+.allOnCenterContainerType {
+    position: relative;
+    height: calc(100vh - 220px);
+    background-image: url('../img/banner.png');
+    background-color: rgba(255, 255, 255, 0.0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.allOnCenterContentType {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translate(-50%, -50%);
+	background-color: rgb(0, 0, 0, 0.6);
+}
+
+.topIcon {
+    width: 140px;
+    height: auto;
+}
+.topTitle {
+    font-family: 'Playfair Display', Helvetica, Arial, serif, sans-serif, serif;
+    font-weight: bold;
+}
+.mainTitle {
+    font-family: 'Playfair Display', Helvetica, Arial, serif, sans-serif, serif;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+.iconsTools {
+    width: 40px;
+    height: auto;
+}
+
