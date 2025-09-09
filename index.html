@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
 	<meta http-equiv="content-type" content="text/html">
 	<title>appinqode</title>
-	<meta name="description" content="Programming and web development">
+	<meta name="description" content="Web and app development">
 	<meta name="keywords" content="programming, web, design, graphic, ios, macos, swiftui">
 	<meta name="author" content="appinqode">
 	<meta name="url" content="appinqode">
@@ -25,15 +25,60 @@
 </head>
 
 <body class="appinqode">
-	
+
 	<section class="text-center">
 		<div class="container-fluid m-0 p-0">
 			<div class="row">
 				<div class="col-12">
-					<div class="allOnCenterContainerType">
-						<div class="allOnCenterContentType rounded rounded-4">
-							<div id="typing" class="fs-1 text-white ps-5 pe-5 pt-2 pb-3 topTitle"></div>
+					<div id="customCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+						<div class="carousel-indicators pb-3">
+							<button type="button" data-bs-target="#customCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#customCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#customCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							<button type="button" data-bs-target="#customCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
 						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active" data-bs-interval="2000">
+								<img src="./assets/img/bannerSlim_1.jpg" class="d-block w-100" alt="banner">
+								<div class="container">
+									<div class="carousel-caption text-center">
+										<h1 class="fs-1 pb-3">Graphic design</h1>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/img/bannerSlim_2.jpg" class="d-block w-100" alt="banner">
+								<div class="container">
+									<div class="carousel-caption text-center">
+										<h1 class="fs-1 pb-3">Content creation</h1>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/img/bannerSlim_3.jpg" class="d-block w-100" alt="banner">
+								<div class="container">
+									<div class="carousel-caption text-center">
+										<h2 class="fs-1 pb-3">Web development</h2>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/img/bannerSlim_4.jpg" class="d-block w-100" alt="banner">
+								<div class="container">
+									<div class="carousel-caption text-center">
+										<h3 class="fs-1 pb-3">App development</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
 					</div>
 				</div>
 			</div>
@@ -44,17 +89,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<img src="./assets/img/brand.png" class="rounded pt-5 topIcon" alt="image">
+					<img src="./assets/img/brandLogoBlack.png" class="rounded pt-5 topIcon" alt="image">
 					<h1 class="pt-4 pb-4 mainTitle">appinqode</h1>
 					<hr>
-					<p class="fs-1 lh-base pt-3">Looking to launch a website, send out a newsletter, or run a marketing campaign? We've got the tools and skills to make it happen. </p>
-					<p class="fs-4 lh-base pb-4">From websites to landing pages and everything in between - we've got your back.</p>
-					<hr>
+					<h2 class="fs-1 lh-base pt-3">Looking to launch a website, send out a newsletter, or run a marketing campaign? We've got the tools and skills to make it happen. </h2>
+					<h3 class="fs-4 lh-base pb-4">From websites to landing pages and everything in between - we've got your back.</h3>
 				</div>
 			</div>
 		</div>
 	</section>
-	
+
 	<section class="text-center">
 		<div class="container">
 			<div class="row">
@@ -62,8 +106,8 @@
 					<div class="card border-0">
 						<div class="card-body">
 							<i class="bi-bezier2" style="font-size: 3rem;"></i>
-							<p class="p-3 mb-2 mt-4 bg-black rounded-3 text-white fs-5 fw-medium lh-base">Graphic design</p>
-							<p class="fs-5 fw-normal lh-base ps-2 pe-2 ms-3 me-3 mt-2 mb-0">We create <span style="font-style: italic; font-weight: bold;">eye-catching, meaningful designs</span> that help your ideas connect with people in just the right way.</p>
+							<h4 class="p-3 mb-2 mt-4 bg-black rounded-3 text-white fs-5 fw-medium lh-base">Graphic design</h4>
+							<h5 class="fs-5 fw-normal lh-base ps-2 pe-2 ms-3 me-3 mt-2 mb-0">We create <span style="font-style: italic; font-weight: bold;">eye-catching, meaningful designs</span> that help your ideas connect with people in just the right way.</h5>
 						</div>
 						<div class="card-body">
 							<div class="row">
@@ -89,8 +133,8 @@
 					<div class="card border-0">
 						<div class="card-body">
 							<i class="bi-code-slash" style="font-size: 3rem;"></i>
-							<p class="p-3 mb-2 mt-4 bg-black rounded-3 text-white fs-5 fw-medium lh-base">Web development</p>
-							<p class="fs-5 fw-normal lh-base ps-2 pe-2 ms-2 me-2 mt-2 mb-0">We build <span style="font-style: italic; font-weight: bold;">websites that are easy to use and full of purpose,</span> making it simple for people to connect with your ideas.</p>
+							<h4 class="p-3 mb-2 mt-4 bg-black rounded-3 text-white fs-5 fw-medium lh-base">Web development</h4>
+							<h5 class="fs-5 fw-normal lh-base ps-2 pe-2 ms-2 me-2 mt-2 mb-0">We build <span style="font-style: italic; font-weight: bold;">websites that are easy to use and full of purpose,</span> making it simple for people to connect with your ideas.</h5>
 						</div>
 						<div class="card-body">
 							<div class="row">
@@ -116,8 +160,8 @@
 					<div class="card border-0">
 						<div class="card-body">
 							<i class="bi-phone" style="font-size: 3rem;"></i>
-							<p class="p-3 mb-2 mt-4 bg-black rounded-3 text-white fs-5 fw-medium lh-base">App development</p>
-							<p class="fs-5 fw-normal lh-base ps-2 pe-2 ms-2 me-0 mt-0 mb-0">We create <span style="font-style: italic; font-weight: bold;">apps that look great and work beautifully,</span> so people can connect with your ideas wherever they are.</p>
+							<h4 class="p-3 mb-2 mt-4 bg-black rounded-3 text-white fs-5 fw-medium lh-base">App development</h4>
+							<h5 class="fs-5 fw-normal lh-base ps-2 pe-2 ms-2 me-0 mt-0 mb-0">We create <span style="font-style: italic; font-weight: bold;">apps that look great and work beautifully,</span> so people can connect with your ideas wherever they are.</h5>
 						</div>
 						<div class="card-body">
 							<div class="row">
@@ -138,68 +182,87 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<section>
 		<div class="container text-center">
 			<div class="row border-top">
 				<div class="col-12 mt-3">
 					<p class="fs-6 fw-medium">
-						<script>document.write(new Date().getFullYear())</script>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;appinqode&nbsp;&nbsp;&nbsp;&bull;<button type="button" class="btn btn-link text-black border border-0 text-decoration-none" data-bs-toggle="modal" data-bs-target="#modalPrivacy">Privacy Policy</button>
+						<script>document.write(new Date().getFullYear())</script>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;appinqode&nbsp;&nbsp;&nbsp;&bull;<button type="button" class="btn text-black border border-0 text-decoration-none" data-bs-toggle="modal" data-bs-target="#modalPortfolio">Portfolio</button>&bull;<button type="button" class="btn text-black border border-0 text-decoration-none" data-bs-toggle="modal" data-bs-target="#modalPrivacy">Privacy policy</button>
 					</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Modal -->
+	<!-- portfolio -->
+	<div class="modal fade" id="modalPortfolio" tabindex="-1" aria-labelledby="modalPortfolioLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-fullscreen">
+			<div class="modal-content">
+				<div class="modal-header border border-0">
+					<p class="modal-title fs-5" id="modalPortfolioLabel">Portfolio</p>
+				</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<p class="fs-4 fw-normal ">Marketing campaigns</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+								<div class="card">
+									<img src="./assets/img/c1.jpg" class="card-img-top" alt="image">
+									<div class="card-footer">
+										<small class="text-body-secondary">Made with Photoshop</small>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+								<div class="card">
+									<img src="./assets/img/c6.jpg" class="card-img-top" alt="image">
+									<div class="card-footer">
+										<small class="text-body-secondary">Made with Pixelmator</small>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+								<div class="card">
+									<img src="./assets/img/c2.jpg" class="card-img-top" alt="image">
+									<div class="card-footer">
+										<small class="text-body-secondary">Made with Pixelmator</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer border border-0">
+						<button type="button" class="btn btn-link text-black border border-0 text-decoration-none" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- privacy -->
 	<div class="modal fade" id="modalPrivacy" tabindex="-1" aria-labelledby="modalPrivacyLabel" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered modal-lg">
 			<div class="modal-content">
-			<div class="modal-header border border-0">
-				<h1 class="modal-title fs-5" id="modalPrivacyLabel">Privacy Policy</h1>
-			</div>
-			<div class="modal-body">
-				<p>This website do not collect any informations.</p>
-			</div>
-			<div class="modal-footer border border-0">
-				<button type="button" class="btn btn-link text-black border border-0 text-decoration-none" data-bs-dismiss="modal">Close</button>
-			</div>
+				<div class="modal-header border border-0">
+					<p class="modal-title fs-5" id="modalPrivacyLabel">Privacy policy</p>
+				</div>
+				<div class="modal-body">
+					<p>This website do not collect any kind of informations!</p>
+				</div>
+				<div class="modal-footer border border-0">
+					<button type="button" class="btn btn-link text-black border border-0 text-decoration-none" data-bs-dismiss="modal">Close</button>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<script src="assets/js/jquery-3-7-1/jquery-3.7.1.js"></script>
 	<script src="assets/css/bootstrap-5-3-7/js/bootstrap.min.js"></script>
-
-	<script>
-		var typeString = ['graphic design', 'web development', 'app development'];
-		var i = 0;
-		var count = 0;
-		var selectedText = '';
-		var text = '';
-		(function type() {
-			if (count == typeString.length) {
-				count = 0;
-			}
-			selectedText = typeString[count];
-			if (text.length === selectedText.length) {
-				count++;
-				i = 0;
-				sleep(i * 1000);
-			}
-			text = selectedText.slice(0, i++);
-			document.getElementById('typing').innerHTML = text;
-			setTimeout(type, 200);
-		}());
-		function sleep(milliseconds) {
-			var start = new Date().getTime();
-			for (var i = 0; i < 1e7; i++) {
-				if ((new Date().getTime() - start) > milliseconds) {
-					break;
-				}
-			}
-		}
-	</script>
 
 </body>
 
