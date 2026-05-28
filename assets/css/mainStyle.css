@@ -24,7 +24,8 @@ a:hover {
 }
 body {
     font-family: 'Roboto', Helvetica, Arial, serif, sans-serif, serif;
-    color: #1C1C1E;
+    background-color: #ffffff;
+    color: #444444;
     overflow-x: hidden;
 }
 html {
@@ -39,11 +40,9 @@ html {
     width: 20px;
     height: auto;
 }
-.downloadImage {
-    width: 240px;
-    height: auto;
-}
 .customButton {
+    width: 200px;
+    height: auto;
     outline: 0;
     text-decoration: none;
 }
