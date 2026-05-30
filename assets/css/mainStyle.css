@@ -26,7 +26,6 @@ body {
     font-family: 'Roboto', Helvetica, Arial, serif, sans-serif, serif;
     background-color: #ffffff;
     color: #444444;
-    overflow-x: hidden;
     margin: 0;
     padding: 0;
     /* forces body to fill the dynamic mobile viewport layout */
@@ -49,6 +48,14 @@ html {
     /* fixes the iOS Safari bouncing height issue */
     height: -webkit-fill-available;
 }
+
+html, body {
+    /* Strips out the default Safari horizontal constraints */
+    max-width: 100%;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+}
+
 .smallImage {
     width: 20px;
     height: auto;
