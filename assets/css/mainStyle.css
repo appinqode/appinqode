@@ -48,32 +48,30 @@ html {
     /* fixes the iOS Safari bouncing height issue */
     height: -webkit-fill-available;
 }
-
 html, body {
-    /* Strips out the default Safari horizontal constraints */
+    /* strips out the default Safari horizontal constraints */
     max-width: 100%;
     overflow-x: hidden;
     -webkit-text-size-adjust: 100%;
 }
-
 .smallImage {
     width: 20px;
     height: auto;
 }
 /* Top Safe Zone - Intended for the Top Navigation Bar */
 .top-safe-zone {
-    /* Keeps original navbar height on desktop, adds notch height on mobile */
+    /* keeps original navbar height on desktop, adds notch height on mobile */
     padding-top: env(safe-area-inset-top, 0px);
-    /* Adds safe padding to sides when device is held in landscape mode */
+    /* adds safe padding to sides when device is held in landscape mode */
     padding-left: max(1rem, env(safe-area-inset-left));
     padding-right: max(1rem, env(safe-area-inset-right));
     box-sizing: border-box;
 }
 /* Bottom Safe Zone - Intended for the Page Footer */
 .bottom-safe-zone {
-    /* Adds safety spacing beneath your text to sit beautifully above the home indicator bar */
+    /* adds safety spacing beneath your text to sit beautifully above the home indicator bar */
     padding-bottom: env(safe-area-inset-bottom, 0px);
-    /* Side protection for landscape rotations */
+    /* side protection for landscape rotations */
     padding-left: max(1rem, env(safe-area-inset-left));
     padding-right: max(1rem, env(safe-area-inset-right));
     box-sizing: border-box;
