@@ -26,13 +26,11 @@ body {
     font-family: 'Roboto', Helvetica, Arial, serif, sans-serif, serif;
     margin: 0;
     padding: 0;
-    max-height: 100dvh;
 }
 html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    max-height: 100dvh;
 }
 .smallImage {
     width: 20px;
@@ -57,7 +55,7 @@ html {
         background-image: url(../../assets/img/appinqode_169.jpg);
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: con;
+        background-size: cover;
         background-attachment: scroll;
         width: 100%;
         aspect-ratio: 16 / 9;
