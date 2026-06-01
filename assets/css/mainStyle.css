@@ -26,11 +26,13 @@ body {
     font-family: 'Roboto', Helvetica, Arial, serif, sans-serif, serif;
     margin: 0;
     padding: 0;
+    max-height: 100dvh;
 }
 html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    max-height: 100dvh;
 }
 .smallImage {
     width: 20px;
