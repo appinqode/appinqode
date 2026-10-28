@@ -13,7 +13,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color-scheme: light dark;
   background-color: transparent !important;
 }
 ::selection {
@@ -54,14 +53,144 @@ html {
     width: 40px;
     height: auto;
 }
+.mainTitle {
+    font-family: "Archivo Black", Helvetica, Arial, serif, sans-serif, serif !important;
+}
 .appIcon {
-    width: 80px;
+    width: 150px;
+    height: auto;
+}
+.downloadImage {
+    width: 180px;
     height: auto;
 }
 .smallImage {
     width: 20px;
     height: auto;
 }
+.brandImageFooter {
+    width: 40px;
+    height: auto;
+}
+.pillImage {
+    width: 32px;
+    height: auto;
+}
+
+.btnColorette {
+    color: rgba(96, 170, 166, 1.0) !important;
+    font-size: 12px;
+}
+.btnIconsetKit {
+    color: rgba(255, 128, 32, 1.0) !important;
+    font-size: 12px;
+}
+.btnMelobar {
+    color: rgba(255, 49, 48, 1.0) !important;
+    font-size: 12px;
+}
+.btnMopperase {
+    color: rgba(198, 62, 107, 1.0) !important;
+    font-size: 12px;
+}
+
+.customCardView {
+    background-color: rgba(180, 180, 180, 0.1);
+    border: 1.2px solid rgba(180, 180, 180, 0.4);
+}
+
+.customShapeColorette {
+    border: 2px solid rgba(96, 170, 166, 1.0);
+    border-radius: 40px;
+}
+.customPillColorette {
+    background-color: rgba(96, 170, 166, 1.0);
+}
+.customPillColoretteView {
+    background-color: rgba(96, 170, 166, 0.2);
+    border: 1px solid rgba(96, 170, 166, 1.0);
+}
+.customPillColoretteView a {
+    color: rgba(96, 170, 166, 1.0);
+}
+.customShapeColoretteView {
+    color: rgba(96, 170, 166, 1.0);
+    border-bottom: 1px solid rgba(96, 170, 166, 1.0);
+}
+
+.customShapeIconsetKit {
+    border: 2px solid rgba(255, 128, 32, 1.0);
+    border-radius: 40px;
+}
+.customPillIconsetKit {
+    background-color: rgba(255, 128, 32, 1.0);
+}
+.customPillIconsetKitView {
+    background-color: rgba(255, 128, 32, 0.2);
+    border: 1px solid rgba(255, 128, 32, 1.0);
+}
+.customPillIconsetKitView a {
+    color: rgba(255, 128, 32, 1.0);
+}
+.customShapeIconsetKitView {
+    color: rgba(255, 128, 32, 1.0);;
+    border-bottom: 1px solid rgba(255, 128, 32, 1.0);
+}
+
+.customShapeMelobar {
+    border: 2px solid rgba(255, 49, 48, 1.0);
+    border-radius: 40px;
+}
+.customPillMelobar {
+    background-color: rgba(255, 49, 48, 1.0);
+}
+.customPillMelobarView {
+    background-color: rgba(255, 49, 48, 0.2);
+    border: 1px solid rgba(255, 49, 48, 1.0);
+}
+.customPillMelobarView a {
+    color: rgba(255, 49, 48, 1.0);
+}
+.customShapeMelobarView {
+    color: rgba(255, 49, 48, 1.0);
+    border-bottom: 1px solid rgba(255, 49, 48, 1.0);
+}
+
+.customShapeMopperase {
+    border: 2px solid rgba(198, 62, 107, 1.0);
+    border-radius: 40px;
+}
+.customPillMopperase {
+    background-color: rgba(198, 62, 107, 1.0);
+}
+.customPillMopperaseView {
+    background-color: rgba(198, 62, 107, 0.2);
+    border: 1px solid rgba(198, 62, 107, 1.0);
+}
+.customPillMopperaseView a {
+    color: rgba(198, 62, 107, 1.0);
+}
+.customShapeMopperaseView {
+    color: rgba(198, 62, 107, 1.0);
+    border-bottom: 1px solid rgba(198, 62, 107, 1.0);
+}
+
+.customShapeMeemobar {
+    border: 2px solid rgba(0, 50, 126, 1.0);
+    border-radius: 40px;
+}
+.customPillMeemobar {
+    background-color: rgba(0, 50, 126, 1.0);
+}
+.customPillMeemobarView {
+    background-color: rgba(0, 50, 126, 0.4);
+    border: 1px solid rgba(0, 50, 126, 1.0);
+}
+.customShapeMeemobarView {
+    color: rgba(0, 50, 126, 1.0);
+    border-bottom: 1px solid rgba(0, 50, 126, 1.0);
+}
+
 /* mobile first */
 @media screen and (min-width: 320px) {
     .topBannerSection {
@@ -85,6 +214,6 @@ html {
         background-attachment: scroll;
         width: 100%;
         aspect-ratio: 16 / 9;
-        max-height: 100dvh;
+        max-height: 140dvh;
     }
 }
